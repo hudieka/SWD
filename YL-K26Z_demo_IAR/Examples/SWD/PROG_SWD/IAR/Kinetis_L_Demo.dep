@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4114300541</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\App\main.c</file>
+      <file>$PROJ_DIR$\..\Source\Drv\uart\MKL_uart.c</file>
+      <file>$PROJ_DIR$\..\Source\Drv\uart\retarget_iar.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Common\startup_MKL25Z4_iar.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\arm_cm0.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Common\system_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\Source\SWD\DAP.c</file>
+      <file>$PROJ_DIR$\..\Source\SWD\dap_vendor_command.c</file>
+      <file>$PROJ_DIR$\..\Source\SWD\debug_cm.c</file>
+      <file>$PROJ_DIR$\..\Source\SWD\SW_DP.c</file>
+      <file>$PROJ_DIR$\..\Source\SWD\swd_host.c</file>
+      <file>$PROJ_DIR$\..\Source\SWD\target_reset.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\..\Source\App\includes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Kinetis_L_Demo.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\Source\Drv\uart\MKL_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Headers\MKL25Z4.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\List\Kinetis_L_Demo.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\retarget_iar.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Source\Drv\gpio\MKL_gpio.h</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\arm_cm0.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\MKL25Z128xxx4.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Common\system_MKL25Z4.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\core_cm0.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\Source\App\main.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\arm_cm0.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_MKL25Z4_iar.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MKL_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Headers\MKL25Z4_CMSIS.h</file>
+      <file>$PROJ_DIR$\..\Source\SWD\target_flash.h</file>
+      <file>$PROJ_DIR$\..\Source\SWD\target_reset.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\Source\SWD\DAP_config.h</file>
+      <file>$PROJ_DIR$\..\Source\SWD\DAP.h</file>
+      <file>$PROJ_DIR$\..\Source\SWD\swd_host.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\swd_host.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SW_DP.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\target_reset.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dap_vendor_command.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\debug_cm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\DAP.o</file>
+      <file>$PROJ_DIR$\..\Source\SWD\debug_cm.h</file>
+      <file>$PROJ_DIR$\..\Source\SWD\target_struct.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\swd_host.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\arm_cm0.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\retarget_iar.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MKL_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\target_reset.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\DAP.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dap_vendor_command.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\debug_cm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SW_DP.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Kinetis_L_Demo.pbd</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\App\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 19 53 27 40 22 17 39 50 24 54 35 16 12 42 32 44 34 58 23 45 21 15 36 38 31 47 41 48 20 28 49 64 66 74 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 23 17 24 45 31 53 42 35 20 27 66 36 49 40 50 22 16 15 41 64 73 19 12 21 38 28 54 39 32 58 44 48 74 13 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Drv\uart\MKL_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 19 53 27 40 22 17 39 50 24 54 35 16 12 42 32 44 34 58 23 45 21 15 36 38 31 47 41 48 20 28 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 27 41 19 38 54 53 32 44 12 21 28 39 58 24 48 13 35 34 36 20 49 40 50 22 17 16 42 23 45 31 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Drv\uart\retarget_iar.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 24 53 27 40 22 17 39 50 13 19 54 35 16 12 42 32 44 34 58 23 45 21 15 36 38 31 47 41 48 20 28 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53 24 39 27 36 58 17 34 49 48 40 50 22 35 20 32 44 15 41 13 19 12 21 38 28 54 16 42 23 45 31 47 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Common\startup_MKL25Z4_iar.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\CMSIS\arm_cm0.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 19 53 27 40 22 17 39 50 24 54 35 16 12 42 32 44 34 58 23 45 21 15 36 38 31 47 41 48 20 28 49 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 44 19 53 54 32 27 15 41 12 21 28 39 58 24 48 30 35 34 36 20 49 40 50 22 17 16 42 23 45 31 47 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Common\system_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 53 27 40 22 17 39 50 60 36 51 31 47 41 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53 40 36 31 60 27 39 50 22 17 15 51 48 47 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\SWD\DAP.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35 53 27 40 22 17 39 50 24 16 64 21 15 65 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 21 53 65 16 40 27 15 64 39 50 22 17 35 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\SWD\dap_vendor_command.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 53 27 40 22 17 39 50 35 24 16 64 21 65 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 24 17 53 15 64 40 50 22 27 16 35 65 39 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\SWD\debug_cm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 15 53 27 40 22 17 39 50 66 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 53 40 66 27 39 73 50 22 17 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\SWD\SW_DP.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64 21 15 53 27 40 22 17 39 50 65 63 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 53 22 15 50 65 21 39 17 64 40 63 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\SWD\swd_host.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 62 74 15 53 27 40 22 17 39 50 66 73 64 21 65 63 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 65 53 27 74 40 50 73 17 15 61 62 66 64 39 21 63 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\SWD\target_reset.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 74 15 53 27 40 22 17 39 50 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 53 40 74 50 22 66 15 17 62 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Kinetis_L_Demo.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 33 52 72 70 71 46 59 26 56 68 67 55 69 43 57 29 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 18 25</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
